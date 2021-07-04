@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aho-Corasick algorithm</h1>
+      <h3>Resources</h3>
+      <ul>
+        <li>
+          <a href="https://cp-algorithms.com/string/aho_corasick.html"
+            >Aho Corasick Algorithm(cp-algorithm)</a
+          >
+        </li>
+        <li>
+          <a href="https://iq.opengenus.org/aho-corasick-algorithm/"
+            >Aho Corasick Algorithm(opengenus)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://returnzerooo.wordpress.com/2017/09/28/%e0%a6%86%e0%a6%b9%e0%a7%8b-%e0%a6%95%e0%a7%8b%e0%a6%b0%e0%a6%be%e0%a6%b8%e0%a6%bf%e0%a6%95/"
+            >আহো-কোরাসিক(returnzerooo)</a
+          >
+        </li>
+        <li>
+          <a href="https://codeforces.com/blog/entry/14854"
+            >Aho-Corasick algorithm. Construction-By adamant(Codeforces)</a
+          >
+        </li>
+        <li>
+          <a href="https://a2oj.com/Category35.html"
+            >Aho-Corasick Problems(a2oj)</a
+          >
+        </li>
+      </ul>
+      <h3>
+        <a
+          href="https://github.com/BrehamPie/CodeLibrary/blob/master/String/Aho-Corasick.cpp"
+          >Template</a
+        >
+      </h3>
+      <h3>Problems</h3>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Problem Name</th>
+            <th>Online Judge</th>
+            <th>Hints</th>
+            <th>Code</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="https://codeforces.com/problemset/problem/963/D"
+                >Frequency of String</a
+              >
+            </td>
+            <td>Codeforces</td>
+            <td>Find all occurance of each string.Then two pointer.</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <a
+                href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1620"
+              >
+                I Love Strings!!</a
+              >
+            </td>
+            <td>Online Judge</td>
+            <td>Count occurance of each string.</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <a href="https://www.spoj.com/problems/SUB_PROB/en/"
+                >Substring Problem</a
+              >
+            </td>
+            <td>SPOJ</td>
+            <td>Count occurance of each string.</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              <a href="https://codeforces.com/contest/163/problem/E"
+                >e-Government</a
+              >
+            </td>
+            <td>Codeforces</td>
+            <td>
+              Build a tree using the suffix links.then update each end position
+              when needed.Use BIT for fast update and query.
+            </td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>
+              <a href="https://www.spoj.com/problems/ADAJOBS/">Ada and Jobs</a>
+            </td>
+            <td>SPOJ</td>
+            <td>
+              Build a tree using the suffix links.then update each end position
+              when needed.Use BIT for fast update and query.
+            </td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>
+              <a href="https://lightoj.com/problem/substring-frequency-ii/"
+                >Sub-string Frequency (II)</a
+              >
+            </td>
+            <td>LightOJ</td>
+            <td>Count occurance of each string.</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>
+              <a href="https://www.codechef.com/MAY20A/problems/TWOSTRS"
+                >Buying a New String</a
+              >
+            </td>
+            <td>Codechef</td>
+            <td>Maintain cumulative sum for suffix of B and prefix of A.</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>
+              <a
+                href="https://algo.codemarshal.org/contests/icpc-dhaka-20-preli/problems/G"
+                >Strange Typewriter</a
+              >
+            </td>
+            <td>Codemarshal</td>
+            <td>
+              Build Aho-Corasick. node should have a link to next node that
+              contains full string.Then use DP.
+            </td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>
+              <a href="https://open.kattis.com/problems/stringmultimatching"
+                >String Multimatching</a
+              >
+            </td>
+            <td>Kattis</td>
+            <td>Find position of each pattern in tree.</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>
+              <a href="https://cses.fi/problemset/task/2103"
+                >Counting Patterns</a
+              >
+            </td>
+            <td>CSES</td>
+            <td>Count occurance of each pattern.</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
